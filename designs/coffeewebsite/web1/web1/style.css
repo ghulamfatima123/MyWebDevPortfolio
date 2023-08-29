@@ -1,0 +1,297 @@
+.firstNav {
+    display: flex;
+    align-items: center;
+}
+
+.firstNav p {
+    display: flex;
+    align-items: center;
+}
+
+.back {
+    background-image: url("img//coffee.jpg");
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.btn.btn-primary {
+    background: #c49b63;
+    border: 1px solid #c49b63;
+    color: #000;
+}
+.btn.btn-white.btn-outline-white {
+    border-color: rgba(255, 255, 255, 0.8);
+    background: none;
+    border-width: 1px;
+    color: #fff;
+}
+
+.top-row {
+    background-color: rgb(78, 85, 90);
+
+}
+
+.second-row {
+    margin: 8px 0px;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    padding-right: 4px;
+}
+
+.header-right a::after {
+    border: 1px solid white;
+}
+
+
+
+button {
+    background-image: linear-gradient(to right,
+            #163809,
+            #28af46,
+            #857802);
+    border: none;
+    color: white;
+    font-size: 14px;
+    margin: 20px 1px;
+    border-radius: 17px;
+    width: 100px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    padding: 13px;
+
+}
+
+
+.cus_re_button{
+    background-image: linear-gradient(to right,
+            #ffffff,
+            #828a84);
+    border: none;
+    color: white;
+    font-size: 14px;
+    margin: 20px 1px;
+    border-radius: 17px;
+    width: 120px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    padding: 13px;
+
+}
+
+
+.x {
+    margin-left: 10px;
+}
+
+.icon-green {
+    color: green;
+}
+
+
+.topnav {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(124, 119, 119);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+    display: flex;
+}
+
+.topnav-right a {
+    padding: 11px 11px;
+    color: black;
+}
+
+.customBorder {
+    border-radius: 24px;
+    border: 0px solid #fff;
+
+}
+
+.bg-color {
+
+    background: linear-gradient(to right, #d7dde861, #c1c5cf2b);
+    
+
+}
+
+
+.cust{
+    background-image: url("img/customerbg.jpg");
+}
+
+
+.findurpro{
+    background-image: url("img/newimage.jpg");
+
+}
+
+
+
+
+.hr-lines {
+    position: relative;
+    max-width: auto;
+    margin: 20px auto;
+    text-align: center;
+    background: linear-gradient(to right, #5df321,
+            #634a3a, #28af46, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text
+}
+
+
+
+
+
+.ab button{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.blackiconcolor {color:white;}
+
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+.forleft{
+    color: white;
+    background: linear-gradient(to right, #326b3e, #c4b92bde);
+    /* margin-top: 30px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+
+.vertical {
+    border-left: 6px solid black;
+    height: 30px;
+   
+    left: 20%;
+}
+
+/*HOME*/
+.blackcolor{
+    background-color: black;
+    height: 200px;
+}
+.bg{
+    background-color: #c49b63;
+}
+.blackcolorr{
+    background-color: #000;
+    height: 480px;
+}
+.blackcolorrh{
+    background-color: #000;
+    height: 700px;
+}
+
+.wid{
+    margin-right: -89px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    /* background-color: transparent; */
+    -webkit-text-decoration-skip: objects;
+}
+.btn.btn-primary.btn-outline-primary {
+    border: 1px solid #c49b63;
+    background: transparent;
+    color: #c49b63;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn {
+    cursor: pointer;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-size: 13px;
+}
+
+.backim{
+    background-image: url(img/dark.jpg);
+    height: 500px;
+    width: 1352px;
+
+}
+
+.brown{
+    background-color: rgb(180, 141, 67);
+    height: 220px;
+    margin-right: -23px;
+    margin-top: 123px;
+}
+.brown1{
+    background-color: rgb(141, 112, 58);
+    height: 280px;
+    margin-left: -20px;
+    
+}
+
+.brown3{
+    background-color: rgb(180, 141, 67);
+    height: 250px;
+    margin-left: -30px;
+    margin-top: 54px;
+}
+.brown4{
+    background-color: rgb(141, 112, 58);
+        height: 280px;
+    margin-left: -31px;
+    margin-right: -18px;
+    
+}

@@ -1,0 +1,548 @@
+.firstNav {
+    display: flex;
+    align-items: center;
+}
+
+.firstNav p {
+    display: flex;
+    align-items: center;
+}
+
+.back {
+    background-color: grey;
+
+}
+
+.cart-1 {
+    cursor: pointer;
+}
+
+.top-row {
+    background-color: rgb(78, 85, 90);
+
+}
+
+.second-row {
+    box-shadow: 3px 8px 10px #88888899;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    padding-right: 4px;
+}
+
+.header-right a::after {
+    border: 1px solid white;
+}
+
+
+
+button {
+    background: linear-gradient(90deg, rgba(33, 133, 83, 1) 0%, rgba(165, 126, 10, 1) 100%);
+    border: none;
+    color: white;
+    font-size: 14px;
+    margin: 20px 1px;
+    border-radius: 17px;
+    width: 96px;
+    height: 28px;
+
+
+}
+
+.button4 {
+    width: 140px;
+    height: 33px;
+    font-size: 17px
+}
+
+.x {
+    margin-left: 10px;
+}
+
+.icon-green {
+    color: green;
+}
+
+
+.topnav {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(124, 119, 119);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+    display: flex;
+}
+
+.topnav-right a {
+    padding: 11px 11px;
+    color: black;
+}
+
+.bgStyle {
+    display: flex;
+    justify-content: center;
+    height: 437px;
+    margin-top: 7px;
+
+
+}
+
+.topnav-right ul {
+    display: flex;
+    list-style: none;
+    margin-top: 13px;
+}
+
+.customBorder {
+    border-radius: 24px;
+    border: 0px solid #fff;
+
+}
+
+.bg-color {
+
+    background: linear-gradient(to right, #cfcfcf6b, #d4d8df9e)
+}
+
+
+.myStyle {
+    margin: 18px 0px;
+}
+
+
+
+
+
+
+
+
+.hr-lines {
+    position: relative;
+    max-width: auto;
+    margin: 20px auto;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(33, 133, 83, 1) 0%, rgba(165, 126, 10, 1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text
+}
+
+.hr-lines:before {
+    content: " ";
+    height: 1px;
+    width: 350px;
+    background: linear-gradient(90deg, rgba(33, 133, 83, 1) 0%, rgba(165, 126, 10, 1) 100%);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.hr-lines:after {
+    content: " ";
+    height: 1px;
+    width: 350px;
+    background: linear-gradient(90deg, rgba(33, 133, 83, 1) 0%, rgba(165, 126, 10, 1) 100%);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.card-title {
+    font-size: 18px;
+    background: linear-gradient(90deg, rgba(33, 133, 83, 1) 0%, rgba(165, 126, 10, 1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text
+}
+
+.text-success {
+    background: linear-gradient(90deg, rgba(33, 133, 83, 1) 0%, rgba(165, 126, 10, 1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text
+}
+
+h2 {
+    font-size: 52px;
+}
+
+h4 {
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: 800;
+    line-height: 0.9;
+}
+
+.marginTop {
+    margin-top: 70px;
+}
+
+/*-------------------------customer review part------------------------*/
+.customer {
+    background: url('img/customerbg.jpg');
+
+}
+
+.customMargin {
+    margin-top: 14px
+}
+
+.customFont {
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+
+.customPara {
+    background: #9b9595a8;
+    margin-right: 930px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+span i {
+    background: green;
+    height: 25px;
+    width: 24px;
+    margin-left: 2;
+    padding: 4px 3px;
+    border-radius: 12px;
+    margin-bottom: 50px
+}
+
+/*-------------------------------------findProduct--------------------------*/
+.findProduct {
+    background-image: url("img/newimage.jpg");
+    display: flex;
+    text-align: center;
+}
+
+.findProductStyle {
+    margin: 38px 0px;
+}
+
+.disp {
+    display: flex;
+    align-items: center;
+}
+
+.ab {
+    width: 215px;
+    border: 2px solid;
+
+    border-radius: 18px;
+    float: right;
+    margin-right: 465px;
+    cursor: pointer;
+}
+
+/*------------------------------------footer-------------------------*/
+.footerpart {
+    background-image: url("img/footer.jpg");
+}
+
+.footerpart p {
+    background-color: white;
+    margin: 0px 420px;
+    border-radius: 24px;
+    padding: 7px 4px;
+    font-size: 18px;
+}
+
+.ab {
+    margin-top: 7px;
+    position: sticky;
+    left: 47%;
+    border: 1px solid;
+    border-color: linear-gradient(90deg, rgba(33, 133, 83, 1) 0%, rgba(165, 126, 10, 1) 100%);
+    ;
+}
+
+.footer_bg_color {
+    background: linear-gradient(90deg, rgba(33, 133, 83, 1) 0%, rgba(165, 126, 10, 1) 100%);
+
+}
+
+/* ----------------------------ABOUT Page--------------------- */
+.customPara2 {
+    margin-right: 140px;
+}
+
+.customPara3 {
+    margin-right: 140px;
+    margin-left: 343px;
+    margin-top: 4px;
+}
+
+/* ----------------------contact-------------------- */
+
+.cont {
+    height: 410px;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #ddff5647,
+            #4a723d9c), url("img/Contact-Us.jpg") no-repeat top center;
+    filter: saturate(1.5);
+    border-radius: 11px;
+
+}
+
+.c {
+    box-shadow: 3px 5px 12px #888888;
+    height: 409px;
+    width: 460px;
+    border-radius: 12px;
+    padding: 0px
+}
+
+.formconus {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.coll {
+    color: rgb(206, 202, 202);
+}
+
+.vertical {
+    border-left: 6px solid black;
+    height: 34px;
+
+    left: 20%;
+}
+
+/* ------------------products---------------------- */
+.prod ul {
+    border: 1px solid #2d9b2d;
+    box-shadow: 3px 5px 12px #888888;
+}
+
+.prod ul li {
+    border: 1px solid #2d9b2d;
+
+}
+
+/*---------------------cart page -------------------------*/
+.mycart {
+    border: 2px solid #a5a3a369;
+    padding: 41px;
+}
+
+.mybuttton {
+    background: linear-gradient(90deg, rgba(33, 133, 83, 1) 0%, rgba(165, 126, 10, 1) 100%);
+    text-align: center;
+    height: 46px;
+
+    padding-top: 10px;
+
+    color: white;
+}
+
+/*-------------------------account page------------------*/
+.acc {
+    display: flex;
+
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(33, 133, 83, 1) 0%, rgba(165, 126, 10, 1) 100%);
+    color: white;
+
+}
+
+.customb {
+    /* border: 1px solid; */
+    padding: 40px;
+    box-shadow: 3px 5px 20px rgb(163 161 161 / 66%);
+    /* background-color: #e5e4e263; */
+    border-radius: 11px;
+}
+
+/* ----------------------products details -------------------- */
+.mymarg {
+    margin: 0px 20px;
+    margin-bottom: 40px;
+}
+
+.probutton {
+    height: 55px;
+    background: linear-gradient(90deg, rgba(33, 133, 83, 1) 0%, rgba(165, 126, 10, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 14px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.probutton1 {
+    height: 55px;
+    background: linear-gradient(90deg, rgba(210, 231, 221, 1) 0%, rgba(237, 229, 206, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    margin-right: 14px;
+    font-size: 18px;
+}
+
+.myim {
+    background: #efefef;
+    display: flex;
+    justify-content: center;
+
+    padding: 24px 47px;
+
+}
+
+.strcolor {
+    color: linear-gradient(90deg, rgba(33, 133, 83, 1) 0%, rgba(165, 126, 10, 1) 100%);
+}
+
+.propara {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+
+    border-radius: 11px;
+
+}
+
+.mymargin {
+    margin-right: 28px;
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+
+}
+
+.term {
+    display: flex;
+    justify-content: end;
+}
+
+/* ----------cart page------------ */
+.top-bar {
+    background: linear-gradient(90deg, rgba(33, 133, 83, 1) 0%, rgba(165, 126, 10, 1) 100%);
+    color: white;
+    font-size: 18px;
+
+}
+
+.quantityStyle {
+    background-color: rgb(248, 247, 247);
+    text-align: center;
+    padding: 11px;
+}
+
+.but {
+    text-align: center;
+    vertical-align: middle;
+    height: 59pxpx;
+    width: 48px;
+    padding-right: 285px;
+    margin-block: auto;
+    margin-bottom: 20px;
+
+}
+
+.bo {
+
+    border: 2px solid #eee9e9;
+    border-radius: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.loginbut {
+    padding-left: 200px;
+    padding-right: 185px;
+    width: 620px;
+    height: 50px;
+}
+
+.logincontainer {
+    background-color: #f5f8f6;
+    box-shadow: 3px 5px 20px rgb(163, 161, 161);
+
+}
+
+
+.cartconcolor {
+    background-color: rgb(248, 247, 247);
+
+}
+
+.loginbut {
+    width: 300;
+    height: 45px;
+
+}
+
+.rowStyle {
+    display: flex;
+    align-items: center;
+}
+
+.foot-bar {
+    background: linear-gradient(90deg, rgba(33, 133, 83, 1) 0%, rgba(165, 126, 10, 1) 100%);
+    color: white;
+    height: 39px;
+    padding: 9px;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    font-weight: 500;
+}
+
+.purchase {
+    display: flex;
+    align-items: center;
+}
+
+.parastyle {
+    text-align: center;
+    margin-top: -12px;
+    background-color: white;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+.pypl {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+
+}

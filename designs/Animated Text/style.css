@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'popins', 'sans-serif';
+}
+
+.conatiner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url('img/four.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    align-items: center;
+
+}
+
+.logo {
+    width: 68px;
+    cursor: pointer;
+    border: dashed;
+    border-radius: 20px;
+}
+
+.cart-icon {
+    width: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 60%;
+
+}
+
+
+
+
+
+.text-box {
+    color: #fff;
+    position: absolute;
+    bottom: 8%;
+
+
+}
+
+.text-box p {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.text-box h1 {
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    background-image: url('img/back.png');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    cursor: pointer;
+
+}
+
+@keyframes back {
+
+    100% {
+        background-position: 2000px 0;
+    }
+}
+
+.text-box h3 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.text-box .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.text-box a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+}
+
+.text-box a span {
+    font-size: 30px;
+    line-height: 15px;
+    margin-left: 5px;
+}
+
+.social-links {
+    position: absolute;
+    right: 2%;
+    bottom: 8%;
+
+}
+
+.social-links img {
+    width: 25px;
+    display: block;
+    margin: 25px 25px;
+}
